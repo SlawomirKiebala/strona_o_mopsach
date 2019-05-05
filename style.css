@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+.background {
+    height: 100%;
+    width: 100vw;
+    color: rgba(0, 0, 0, .5);
+    position: absolute;
+}
+
+header {
+    background: url('../assets/tło.jpeg') center/cover no-repeat;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-attachment: fixed;
+}
+
+header .top {
+    height: 5rem;
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+}
+
+header .logo {
+    font-size: 3rem;
+    padding: .7rem;
+    color: beige;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header nav ul {
+    width: 100vw;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    width: 10%;
+    text-align: center;
+    color: rgb(97, 160, 119);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* header nav ul li::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    bottom: 0;
+    transition: all .5s linear;
+}
+
+header nav ul li:hover::after {
+    background-color: rgb(120, 192, 168);
+    width: 100%; */
+}
+
+header nav ul ul {
+    position: static;
+    display: none;
+    height: auto;
+}
+
+header nav ul ul li {
+    position: relative;
+    float: none;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+}
+
+header nav ul ul li a {
+    height: 100%;
+    width: 96%;
+    line-height: 2.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+header h1 {
+    width: 100vw;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%, -50%);
+    text-align: center;
+    font-size: 1.8rem;
+    color: beige;
+}
+
+section {
+    display: block;
+    padding: 3rem;
+    width: 100vw;
+    color: rgb(59, 126, 126);
+}
+
+section:nth-of-type(even) {
+    position: relative;
+    background: url('../assets/tło.jpeg') center/cover no-repeat;
+    background-attachment: fixed;
+    color: rgb(19, 190, 182);
+}
+
+section:nth-of-type(odd) {
+    background-color: beige;
+    position: relative;
+}
+section h2 {
+    text-align: center;
+    line-height: 2rem;
+}
+section h3 {
+    text-align: center;
+    line-height: 2rem;
+}
+section h4 {
+    line-height: 2rem;
+    font-weight: bold;
+}
+i {
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+.d {
+    margin: 2rem;
+    float: left;
+}
+
+.s {
+    margin: 2rem;
+    float: right;
+}
+
+.l {
+    margin: 2rem;
+    float: left;
+}
+
+.p {
+    margin: 2rem;
+    float: right;
+}
+.z {
+    margin: 2rem;
+    float: left;
+}
+
+.k {
+    margin: 2rem;
+    float: right;
+}
